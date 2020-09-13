@@ -4,6 +4,8 @@ Modules used :
     alsaaudio - sudo apt install python3-alsaaudio
     time (optional)
 This only works on Linux
+
+The path is for my system, change if you want to run on your machine
 """
 
 def audio_player():
@@ -13,9 +15,9 @@ def audio_player():
     import alsaaudio as audio
 
     volume = audio.Mixer()
-    default = '/home/fsociety/Music/'
+    default = '/home/fsociety/Music/' # that's mine default path for music
 
-    path = input('\nEnter the path of the folder (default is /home/fsociety/Music/): \n')
+    path = input('\nEnter the path of the folder (default is /home/fsociety/Music/): \n') # enter the path of the songs folder
 
 
     if path == "":
