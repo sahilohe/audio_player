@@ -7,12 +7,12 @@ This only works on Linux
 
 The path is for my system, change if you want to run on your machine
 """
+import os, time
+from playsound import playsound as play
+import alsaaudio as audio
 
 def audio_player():
 
-    import os, time
-    from playsound import playsound as play
-    import alsaaudio as audio
 
     volume = audio.Mixer()
     default = '/home/fsociety/Music/' # that's mine default path for music
