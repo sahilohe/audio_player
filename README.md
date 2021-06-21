@@ -1,5 +1,7 @@
 # It's useless for you, still you can explore
 
+Obivously we all use Spotify
+
 This one is useless for you
 
 If not, then it works only on Linux
